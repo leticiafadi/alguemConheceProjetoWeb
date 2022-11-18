@@ -1,0 +1,30 @@
+{
+  "name": "alguemconheceweb",
+  "version": "1.0.0",
+  "description": "Ideia de aplicação que tem como objetivo centralizar e disponibilizar os contatos de prestadores de serviços, facilitando o processo de busca de serviços na região russana.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leticiafadi/alguemConheceProjetoWeb.git"
+  },
+  "keywords": [
+    "1234"
+  ],
+  "author": "Leticia Ventura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leticiafadi/alguemConheceProjetoWeb/issues"
+  },
+  "homepage": "https://github.com/leticiafadi/alguemConheceProjetoWeb#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+    "dependencies": {
+      "express": "^4.18.1"
+  }
+  
+}

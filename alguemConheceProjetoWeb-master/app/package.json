@@ -1,0 +1,36 @@
+{
+  "name": "nodecrud",
+  "version": "0.0.0",
+  "description": "Projeto para disciplina de WEB - 2022.2",
+  "main": "bin/www.js",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon",
+    "lint": "eslint --ext .js,.html -f ./node_modules/eslint-friendly-formatter .. --fix",
+    "prepush": "npm run lint",
+    "start": "node bin/www.js"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "docker",
+    "express"
+  ],
+  "author": "Leticia Ventura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leticiafadi"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "morgan": "~1.8.1",
+    "mysql": "^2.13.0",
+    "serve-favicon": "~2.4.2",
+    "sqlite3": "^5.1.2"
+  }
+}
